@@ -1,0 +1,202 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5675221463,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.initialization()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate n11.com Home Page Test",
+        "description": "",
+        "id": "n11.com-applications-test;validate-n11.com-home-page-test",
+        "after": [
+          {
+            "result": {
+              "duration": 236739858,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10269265065,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "close the main popup",
+            "match": {
+              "location": "HomePageSteps.closeTheMainPopup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103706661,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6839720635,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username and password",
+            "match": {
+              "location": "HomePageSteps.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5207046248,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.initialization()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Password is wrong",
+        "description": "",
+        "id": "n11.com-applications-test;password-is-wrong",
+        "after": [
+          {
+            "result": {
+              "duration": 878683144,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13405153864,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close the main popup",
+            "match": {
+              "location": "HomePageSteps.closeTheMainPopup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86181839,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on login page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5984653039,
+              "error_message": "java.lang.AssertionError: expected:\u003ctrue\u003e but was:\u003cfalse\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat com.qa.stepdefinations.HomePageSteps.userEnterEmailWithoutPassword(HomePageSteps.java:68)\n\tat ✽.Then user enter username without password(/Users/user/IdeaProjects/n11.com/src/main/java/com/qa/features/n11.feature:14)\n",
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "user enter username without password",
+            "match": {
+              "location": "HomePageSteps.userEnterEmailWithoutPassword()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4357726223,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.initialization()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "check AllManButiqueLinks",
+        "description": "",
+        "id": "n11.com-applications-test;check-allmanbutiquelinks",
+        "after": [
+          {
+            "result": {
+              "duration": 175268556,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 321490450860,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "go to man butique",
+            "match": {
+              "location": "HomePageSteps.goToManButique()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "check all url",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "n11.com Applications Test",
+    "description": "",
+    "id": "n11.com-applications-test",
+    "keyword": "Feature",
+    "uri": "/Users/user/IdeaProjects/n11.com/src/main/java/com/qa/features/n11.feature"
+  }
+]
